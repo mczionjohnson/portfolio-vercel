@@ -1,0 +1,179 @@
+* {
+    /* /* font-family: Arial, Helvetica, sans-serif */
+    font-family: Helvetica, sans-serif;
+    font-family: 'Gotham-rounded';
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  body {
+ 
+    background: #0d6efd;
+    color: hsl(200, 100%, 90%);
+    margin: 0;
+  }
+  
+  .nav-bar {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin: 0.5rem 0;
+  }
+
+
+.ul a{
+  text-decoration: none;
+  margin-right: 1rem;
+  color: #0d6efd;
+  
+
+}
+  .name-card {
+    display: grid;
+    justify-content: center;
+    padding: 5rem;
+  }
+
+.name-card-text{
+  margin: auto;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.imgWrapper {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.about-me-lg {
+  display: grid;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.about-me-sm {
+  width: 1200px;
+  height: 300px;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 0 5rem;
+}
+
+.about-me-header {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.project-header{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.project-wrapper{
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+}
+
+.project-card{
+  background-color: #fff;
+  color: black;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+
+.span {
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+}
+.span-text-rest {
+  background-color: yellow;
+ 
+}
+
+.span-text-mongo {
+  background-color: #28a745;
+}
+
+.card-link {
+  color: black;
+  margin-left: 1rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.footer-text {
+  margin-top: 0;
+}
+
+.footer-link, .footer-mail{
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*   
+  .btn {
+    background: hsl(200, 100%, 50%, 0.1);
+    border: 1px solid hsl(200, 100%, 50%);
+    color: hsl(200, 100%, 50%);
+    padding: 0.25em 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn:hover,
+  .btn:focus-visible {
+    background: hsl(200, 100%, 50%, 0.2);
+  }
+  
+  .btn.btn-danger {
+    background: hsl(0, 100%, 40%, 0.1);
+    border: 1px solid hsl(0, 100%, 40%);
+    color: hsl(0, 100%, 40%);
+  }
+  
+  .btn.btn-danger:hover,
+  .btn.btn-danger:focus-visible {
+    background: hsl(0, 100%, 40%, 0.2);
+  }
+  
+ 
+  .header {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+
+
+  
+  .list li label {
+    display: flex;
+    gap: 0.25rem;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .list li:has(input:focus-visible) label {
+    outline: 1px solid hsl(200, 100%, 50%);
+  }
+   */
