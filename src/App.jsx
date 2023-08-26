@@ -20,7 +20,16 @@ export default function App() {
     <div className="about-me-lg">
       <div className="about-me-sm">
         <h2 className="about-me-header">About me</h2>
-        <p className="about-me-text">I am lorem ipsum :)</p>
+        <p className="about-me-text"> I started my programming journey writing HTML, CSS and Javascript, I love writing codes for backend
+            with NodeJS and also connect the dots for frontend in fullstack projects. I am always interested in web security and 
+            creating user-friendly solutions.
+            </p>
+            <br />
+            <p>I come from a background in Music, and that helps me connect effectively, collaborate, 
+            communicate and develop a detailed approach for designing programs. Some of the exciting projects I have worked on includes a Fullstack 
+            developed Book-Library showing some iconic books across the World of Literature, it uses a user authentication with JWT-Tokens and CSRF protection 
+            for all forms, MVC pattern and REST-API connection, and connection to a No-SQL Database both in development and production. I always look forward to 
+            learning more and be part of a success-driven team.</p>
       </div>
     </div>
     <h2 className="project-header">Projects</h2>
